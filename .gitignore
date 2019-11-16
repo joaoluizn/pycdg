@@ -1,0 +1,10 @@
+# Folders
+.idea
+__pycache__
+venv
+
+# Files
+*.pyc
+*.swp
+db.sqlite3
+db.sqlite3-journal
