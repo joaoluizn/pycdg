@@ -9,7 +9,8 @@ There is no directly responsibility of a Software for a teammate. The teammates 
 of them, although one more than others. It's based on the tasks log-work from the task management 
 system that John follows whom is involved in which project.
 
-The Software is composed by its function requirements' tasks. After a function requirement be 
+###### The Software is composed by its function requirements' tasks. After a function requirement be 
+
 described, the team uses the information to create all tasks needed in order to complete the implementation. 
 A group of function requirements compose a software version that will be released for the users.
 
@@ -55,3 +56,10 @@ the end-user and what will come next.
 26. Report has interval-period of dates
 27. Report has finished Functional Requirement
 28. Report has next Functional Requirement
+
+# Entities relationships after implementation
+
+1. Team is composed by zero or one Teammate (Manager)
+2. Team is composed by zero or  more Teammate (Leader)
+3. Team is composed by zero or more  SubTeam
+4. SubTeam is composed by zero or more Teammate
