@@ -9,9 +9,7 @@ from teammate.models.software_version import SoftwareVersion
 
 class Software(AbstractBasicModel):
     """A Software referred to a software project"""
-    software_version = models.ManyToOneRel(SoftwareVersion,
-                                           on_delete=models.CASCADE,
-                                           field_name="Software Version")
+    software_version = models.ManyToOneRel(SoftwareVersion, on_delete=models.CASCADE, field_name='Software Version')
 
     # full_estimation_time = calculated field with sum of all estimation_time of this Software
     # full_log_work = calculated field with sum of all log_works of this Software
