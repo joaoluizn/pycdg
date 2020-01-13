@@ -13,9 +13,11 @@ class Team(AbstractTeamModel):
     leaders = models.ManyToManyField(Teammate)
     sub_teams = models.ManyToManyField(SubTeam)
 
+    # full_tasks = calculated field with sum of all tasks of this Team
+
     class Meta:
-        verbose_name = 'Team'
-        verbose_name_plural = 'Teams'
+        verbose_name = 'team'
+        verbose_name_plural = 'teams'
 
         # TODO: Add constraints:
         #  #1 Allow the leader to be registered if it exists in the teammates

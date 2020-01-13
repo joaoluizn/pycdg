@@ -11,5 +11,5 @@ class SubTeam(AbstractTeamModel):
     teammates = models.ManyToManyField(Teammate)
 
     class Meta:
-        verbose_name = 'Sub-team'
-        verbose_name_plural = 'Sub-teams'
+        verbose_name = 'sub-team'
+        verbose_name_plural = 'sub-teams'
