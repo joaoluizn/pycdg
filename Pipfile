@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 Django = "==3.0.3"
 djangorestframework = "==3.11.0"
+django-webpack-loader = "==0.7.0"
 
 [dev-packages]
 pylint = "*"
