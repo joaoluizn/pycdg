@@ -1,10 +1,19 @@
 # Folders
 .idea
+.vscode
 __pycache__
 venv
+.DS_Store
+node_modules
+dist
 
 # Files
 *.pyc
 *.swp
 db.sqlite3
 db.sqlite3-journal
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

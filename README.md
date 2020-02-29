@@ -5,6 +5,7 @@ working on softwares projects to **generate views** to make easy to follow-up th
 
 # Requirements
 * [Pipenv](https://pipenv.kennethreitz.org/en/latest/)
+* [Yarn](https://classic.yarnpkg.com/en/docs/install)
 
 # Environment Setup
 
@@ -12,6 +13,17 @@ working on softwares projects to **generate views** to make easy to follow-up th
 # Install dependencies
 pipenv install
 
-# Activate virtualenv
+cd frontend
+yarn install
+```
+
+# Run with hot-reloads for development
+```shell script
+# Run Django back-end
 pipenv shell
+python manage.py runserver 8080
+
+# Run Vue front-end
+cd frontend
+./node_modules/.bin/vue serve src/main.js
 ```
