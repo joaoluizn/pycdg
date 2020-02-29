@@ -1,4 +1,0 @@
-ipython
-pylint
-coverage
--r requirements.txt

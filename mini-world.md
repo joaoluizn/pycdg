@@ -9,9 +9,8 @@ There is no directly responsibility of a Software for a teammate. The teammates 
 of them, although one more than others. It's based on the tasks log-work from the task management 
 system that John follows whom is involved in which project.
 
-###### The Software is composed by its function requirements' tasks. After a function requirement be 
-
-described, the team uses the information to create all tasks needed in order to complete the implementation. 
+The Software is composed by its function requirements' tasks. After a function requirement be described, 
+the team uses the information to create all tasks needed in order to complete the implementation. 
 A group of function requirements compose a software version that will be released for the users.
 
 John knows how long time will take a given function requirement after summing the estimation time 
