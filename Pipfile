@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 Django = "==3.0.3"
+djangorestframework = "*"
 
 [dev-packages]
 pylint = "*"
