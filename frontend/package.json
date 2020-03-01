@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "webpack:dev:watch": "webpack --watch",
-    "webpack:dev:server": "webpack-dev-server --host 0.0.0.0 --port 3000",
-    "serve": "vue-cli-service serve",
+    "watch": "webpack --watch",
+    "serve": "webpack-dev-server --host 0.0.0.0 --port 3000",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
