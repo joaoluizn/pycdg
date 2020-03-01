@@ -63,7 +63,7 @@ module.exports = {
             },
             {
                 test: /\.(png|jpe?g|gif)$/i,
-                include: path.join(__dirname, 'assets/img'),
+                include: path.join(__dirname, 'src'),
                 loader: 'file-loader',
                 options: {
                     name: '[name].[ext]',
@@ -138,7 +138,8 @@ module.exports = {
     * */
     resolve: {
         alias: {
-            'vue$': 'vue/dist/vue.esm.js'
+            'vue$': 'vue/dist/vue.esm.js',
+            '@': path.join(__dirname, 'src'),
         },
     },
 };

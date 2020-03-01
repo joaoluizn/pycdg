@@ -25,8 +25,5 @@ from teammate.routers import router
 urlpatterns = [
     url(r'api/', include(router.urls)),
     path('admin/', admin.site.urls),
-    path('',
-         TemplateView.as_view(template_name='index.html'),
-         name='app',
-         ),
+    path('', TemplateView.as_view(template_name='index.html'), name='app', ),
 ]
